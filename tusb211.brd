@@ -1664,7 +1664,7 @@ design rules under a new name.</description>
 <element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="5.08" y="2.413" rot="MR180">
 <attribute name="PROD_ID" value="DIO-00821" x="5.08" y="2.413" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$2" library="USBSMD" package="USBSMD" value="USB" x="13.589" y="10.033" rot="R90"/>
+<element name="U$2" library="USBSMD" package="USBSMD" value="USB" x="13.589" y="10.16" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1701,7 +1701,6 @@ design rules under a new name.</description>
 <via x="18.542" y="6.223" extent="1-16" drill="0.35"/>
 <via x="18.034" y="17.78" extent="1-16" drill="0.35"/>
 <via x="7.112" y="1.016" extent="1-16" drill="0.35"/>
-<wire x1="7.5184" y1="12.954" x2="8.309" y2="10.91" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="11"/>
@@ -1759,8 +1758,6 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="D+"/>
 <contactref element="U$2" pad="P$3"/>
 <wire x1="10.033" y1="9.652" x2="9.725" y2="9.96" width="0.2032" layer="16"/>
-<wire x1="10.668" y1="9.652" x2="11.684" y2="10.668" width="0.2032" layer="16"/>
-<via x="11.684" y="10.668" extent="1-16" drill="0.35"/>
 <wire x1="10.033" y1="9.652" x2="10.668" y2="9.652" width="0.2032" layer="16"/>
 <wire x1="7.859" y1="9.96" x2="7.166" y2="9.96" width="0.2032" layer="16"/>
 <wire x1="7.166" y1="9.96" x2="6.858" y2="9.652" width="0.2032" layer="16"/>
@@ -1769,8 +1766,10 @@ design rules under a new name.</description>
 <wire x1="6.366" y1="9.16" x2="3.937" y2="9.16" width="0.2032" layer="1"/>
 <wire x1="9.725" y1="9.96" x2="9.159" y2="9.96" width="0.2032" layer="16"/>
 <wire x1="9.159" y1="9.96" x2="7.859" y2="9.96" width="0.2032" layer="16"/>
-<wire x1="11.684" y1="10.668" x2="12.049" y2="11.033" width="0.2032" layer="1"/>
-<wire x1="12.049" y1="11.033" x2="13.589" y2="11.033" width="0.2032" layer="1"/>
+<wire x1="10.668" y1="9.652" x2="11.65895625" y2="10.64295625" width="0.2032" layer="16"/>
+<via x="11.65895625" y="10.64295625" extent="1-16" drill="0.35"/>
+<wire x1="11.65895625" y1="10.64295625" x2="12.176" y2="11.16" width="0.2032" layer="1"/>
+<wire x1="12.176" y1="11.16" x2="13.589" y2="11.16" width="0.2032" layer="1"/>
 </signal>
 <signal name="M">
 <contactref element="U1" pad="8"/>
@@ -1787,8 +1786,8 @@ design rules under a new name.</description>
 <wire x1="9.725" y1="10.36" x2="10.033" y2="10.668" width="0.2032" layer="16"/>
 <via x="10.033" y="10.668" extent="1-16" drill="0.35"/>
 <wire x1="10.033" y1="10.668" x2="10.668" y2="10.668" width="0.2032" layer="1"/>
-<wire x1="12.303" y1="9.033" x2="13.589" y2="9.033" width="0.2032" layer="1"/>
-<wire x1="10.668" y1="10.668" x2="12.303" y2="9.033" width="0.2032" layer="1"/>
+<wire x1="10.668" y1="10.668" x2="12.176" y2="9.16" width="0.2032" layer="1"/>
+<wire x1="12.176" y1="9.16" x2="13.589" y2="9.16" width="0.2032" layer="1"/>
 </signal>
 <signal name="VIN">
 <contactref element="VOLTAGEREGULATOR" pad="1"/>
@@ -1802,14 +1801,14 @@ design rules under a new name.</description>
 <wire x1="11.01" y1="14.185" x2="10.541" y2="13.716" width="0.2032" layer="16"/>
 <via x="10.541" y="13.716" extent="1-16" drill="0.35"/>
 <contactref element="U$2" pad="P$1"/>
-<wire x1="12.644" y1="6.533" x2="8.382" y2="10.795" width="0.2032" layer="1"/>
-<wire x1="12.644" y1="6.533" x2="13.589" y2="6.533" width="0.2032" layer="1"/>
-<wire x1="8.382" y1="10.795" x2="8.382" y2="13.2588" width="0.2032" layer="1"/>
+<wire x1="8.382" y1="13.2588" x2="8.382" y2="10.795" width="0.2032" layer="1"/>
 <wire x1="8.382" y1="13.2588" x2="7.9502" y2="13.6906" width="0.2032" layer="1"/>
 <wire x1="8.382" y1="13.2588" x2="8.8392" y2="13.716" width="0.2032" layer="1"/>
 <wire x1="8.8392" y1="13.716" x2="10.541" y2="13.716" width="0.2032" layer="1"/>
 <wire x1="3.9676" y1="13.6906" x2="3.937" y2="13.66" width="0.2032" layer="1" curve="90"/>
 <wire x1="7.9502" y1="13.6906" x2="3.9676" y2="13.6906" width="0.2032" layer="1"/>
+<wire x1="8.382" y1="10.795" x2="12.517" y2="6.66" width="0.2032" layer="1"/>
+<wire x1="12.517" y1="6.66" x2="13.589" y2="6.66" width="0.2032" layer="1"/>
 </signal>
 <signal name="NC/ADJ">
 <contactref element="VOLTAGEREGULATOR" pad="4"/>
