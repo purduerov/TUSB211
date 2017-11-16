@@ -1,0 +1,24 @@
+Partlist
+
+Exported from tusb211.brd at 11/16/17 6:57 PM
+
+EAGLE Version 8.3.2 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part             Value          Package  Library                      Position (mil)        Orientation
+
+C1               0.1uF          0603     SparkFun-Capacitors          (205 565)             MR180
+C2               1.0uF          0603     SparkFun-Capacitors          (205 635)             MR0
+C3               10nF           0603     SparkFun-Capacitors          (205 705)             MR180
+C4               0.1uF          0603     SparkFun-Capacitors          (360 285)             MR180
+C6               1.0uF          0603     SparkFun-Capacitors          (475 525)             MR90
+D1               Red            LED-0603 SparkFun-LED                 (350 95)              MR180
+D2               GREEN          LED-0603 SparkFun-LED                 (200 95)              MR180
+R1               120            R0805    rcl                          (375 195)             MR180
+R2               120            R0805    rcl                          (190 475)             MR180
+U$1              TYPEAUSB       TYPEAUSB TYPEAUSBSMDMALE              (155 400)             R90
+U$2              USB            USBSMD   USBSMD                       (535 400)             R90
+U1               Value          RWB0012A TUSB211                      (335 400)             MR0
+VARIABLER        120            R0805    rcl                          (225 230)             MR90
+VOLTAGEREGULATOR INA169         SOT23-5  SparkFun-IC-Special-Function (370 670)             MR270
